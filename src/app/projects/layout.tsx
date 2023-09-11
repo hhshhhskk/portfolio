@@ -1,6 +1,6 @@
 export default function ProjectsLayout(props: any) {
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen px-5 py-5 mb-10">
+        <div className="flex flex-col items-center justify-center min-h-screen px-5 py-2 mb-10">
             {props.children}
         </div>
     )
