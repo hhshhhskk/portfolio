@@ -9,7 +9,7 @@ export default function ProjectItem(data: any) {
     const date = data.data.properties.date.date
     const url = data.data.properties.URL.url;
     const img = data.data.cover?.file.url;
-    console.log(date.start);
+    // console.log(date.start);
     return (
         <div className="project-card">
 
